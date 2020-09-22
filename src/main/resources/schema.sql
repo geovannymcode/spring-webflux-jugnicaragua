@@ -5,6 +5,3 @@ CREATE TABLE productos(
    estado VARCHAR (10),
    precio NUMERIC(6, 2)
 );
-
-INSERT INTO producto (descripcion, nombre, estado, precio)
-    values ('Telefono Iphone 11', 'Iphone', 'Excelente', 50);
