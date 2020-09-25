@@ -34,6 +34,7 @@ public class ProductoRestController {
     @ResponseStatus(HttpStatus.CREATED)
     public Mono<Producto> create(@RequestBody Producto producto) {
         return productoServicio.save(producto);
+        		
     }
 
     @PutMapping("/{id}")
